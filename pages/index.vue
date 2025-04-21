@@ -1,4 +1,4 @@
-<script lang="ts" src="./Core/IndexPageCore.ts" />
+<script lang="ts" src="@/core/pages/IndexPageCore.ts" />
 
 <template>
   <!-- ========== IndexPage ========== -->
