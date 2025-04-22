@@ -12,5 +12,7 @@ useHead({
 
 <template>
   <!-- ========== DashboardPage ========== -->
-  <h1>Admin Dashboard</h1>
+  <div>
+    <h1>Admin Dashboard</h1>
+  </div>
 </template>

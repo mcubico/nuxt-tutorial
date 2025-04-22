@@ -6,5 +6,8 @@ useHead({
 
 <template>
   <!-- ========== AboutPage ========== -->
-  <h1>About</h1>
+  <div>
+    <h1>About</h1>
+    <NuxtLink to="/">Home</NuxtLink>
+  </div>
 </template>

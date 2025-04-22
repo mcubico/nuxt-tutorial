@@ -8,5 +8,13 @@ export default defineAppConfig({
     colors: {
       primary: "#ff0000",
     },
-  }
+  },
+  pageTransition: {
+    name: "page",
+    mode: "out-in", // default
+  },
+  layoutTransition: {
+    name: "layout",
+    mode: "out-in", // default
+  },
 });

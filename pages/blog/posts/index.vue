@@ -6,7 +6,7 @@ useHead({
 
 <template>
   <!-- ========== AboutPage ========== -->
-  <section>
+  <div>
     <h1>Posts</h1>
 
     <header>
@@ -17,5 +17,5 @@ useHead({
         </ul>
       </nav>
     </header>
-  </section>
+  </div>
 </template>

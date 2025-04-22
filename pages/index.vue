@@ -6,5 +6,7 @@ useHead({
 
 <template>
   <!-- ========== IndexPage ========== -->
-  <h1>Home</h1>
+  <div>
+    <h1>Home</h1>
+  </div>
 </template>

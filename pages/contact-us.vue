@@ -10,5 +10,8 @@ definePageMeta({
 
 <template>
   <!-- ========== ContactUsPage ========== -->
-  <h1>Contact Us</h1>
+  <div>
+    <h1>Contact Us</h1>
+    <NuxtLink to="/">Home</NuxtLink>
+  </div>
 </template>

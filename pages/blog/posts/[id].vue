@@ -8,5 +8,7 @@ useHead({
 
 <template>
   <!-- ========== PostDetailPage ========== -->
-  <h1>Post Detail {{ id }}</h1>
+  <div>
+    <h1>Post Detail {{ id }}</h1>
+  </div>
 </template>

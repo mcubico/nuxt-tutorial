@@ -6,5 +6,7 @@ useHead({
 
 <template>
   <!-- ========== AboutPage ========== -->
-  <h1>Blog</h1>
+  <div>
+    <h1>Blog</h1>
+  </div>
 </template>
