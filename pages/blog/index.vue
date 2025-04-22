@@ -1,4 +1,8 @@
-<script lang="ts" src="@/core/pages/blog/BlogPageCore.ts" />
+<script setup lang="ts">
+useHead({
+  title: "Blog",
+});
+</script>
 
 <template>
   <!-- ========== AboutPage ========== -->

@@ -1,13 +1,10 @@
-<script lang="ts">
-export default defineComponent({
-  setup() {
-    definePageMeta({
-      layout: "custom",
-    });
+<script setup lang="ts">
+useHead({
+  title: "Contact Us",
+});
 
-    return {};
-  },
-  name: "ContactUsPage",
+definePageMeta({
+  layout: "custom",
 });
 </script>
 

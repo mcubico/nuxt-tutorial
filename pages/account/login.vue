@@ -1,4 +1,8 @@
-<script lang="ts" src="@/core/pages/account/LoginPageCore.ts" />
+<script setup lang="ts">
+useHead({
+  title: "Login",
+});
+</script>
 
 <template>
   <!-- ========== LoginPage ========== -->

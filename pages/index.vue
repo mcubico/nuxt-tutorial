@@ -1,4 +1,8 @@
-<script lang="ts" src="@/core/pages/IndexPageCore.ts" />
+<script setup lang="ts">
+useHead({
+  title: "Home",
+});
+</script>
 
 <template>
   <!-- ========== IndexPage ========== -->
