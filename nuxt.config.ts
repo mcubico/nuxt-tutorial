@@ -1,7 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-11-01",
-  devtools: { enabled: true },
   runtimeConfig: {
     // The private keys which are only available server-side
     // can be overridden by NUXT_API_SECRET environment variable
@@ -14,4 +12,10 @@ export default defineNuxtConfig({
       apiVersion: "v1",
     },
   },
+  modules: [
+    //Add @nuxt/test-utils/module to your nuxt.config file (optional). It adds a Vitest integration to your Nuxt DevTools which supports running your unit tests in development.
+    '@nuxt/test-utils/module'
+  ],
+  compatibilityDate: "2024-11-01",
+  devtools: { enabled: true },
 });
